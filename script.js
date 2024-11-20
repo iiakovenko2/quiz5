@@ -163,7 +163,7 @@ document.getElementById("prev").addEventListener("click", (event) => {
     
     showQuestion(currentQuestion); // Initialize the first question
     
-  startTimer(); 
+   startTimer(); 
   loadAnswers();
   
 });
