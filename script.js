@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const totalQuestions = 15;
     const footerNavigation = document.getElementById("footer-navigation");
     const timerElement = document.getElementById("timer");
-    let timeLeft = localStorage.getItem("timeLeft") ? parseInt(localStorage.getItem("timeLeft")) : 2700;
+    let timeLeft = 2700;
     for (let i = 1; i <= totalQuestions; i++) {
         const questionButton = document.createElement("button");
         questionButton.textContent = i;
@@ -163,7 +163,7 @@ document.getElementById("prev").addEventListener("click", (event) => {
     
     showQuestion(currentQuestion); // Initialize the first question
     
-  // startTimer(); 
+   startTimer(); 
    loadAnswers();
   
 });
