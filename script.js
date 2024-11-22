@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         q10: "დ",
         q11: "ბ", 
         q12: "გ", 
-        q13: "ა", 
+        q13: "დ", 
         q14: "ა", 
         q15: "გ"
     };
