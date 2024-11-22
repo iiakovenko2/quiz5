@@ -150,7 +150,14 @@ footer {
 #nav_quest {
     font-size: 16px;
     padding:3px;
-    margin-bottom: 1px;
-    
-    
+    margin-bottom: 1px;  
+}
+#question14 label, #question3 label {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  border:  1px solid;
+  position: relative;
+  width: 110px;
+  padding: 2px;  
 }
